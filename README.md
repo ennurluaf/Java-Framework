@@ -13,7 +13,8 @@ If you want to use this as a clean starter project:
 
 
 ```bash
-git clone --branch Game-Focus --single-branch https://github.com/youruser/JFrameTemplate.git MyApp
+read -p "Enter the branch you want to clone: " branch
+git clone --branch "$branch" --single-branch https://github.com/youruser/JFrameTemplate.git MyApp
 cd MyApp
 rm -rf .git               # to: remove Git history
 ```

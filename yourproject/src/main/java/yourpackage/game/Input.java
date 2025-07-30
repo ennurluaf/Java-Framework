@@ -1,13 +1,13 @@
-package yourpackage.main;
+package yourpackage.game;
 
 import java.awt.event.*;
 
 public class Input implements MouseListener, MouseMotionListener, KeyListener {
 
-    private final App app;
+    private final Game game;
 
-    public Input(App app) {
-        this.app = app;
+    public Input(Game game) {
+        this.game = game;
     }
 
     @Override

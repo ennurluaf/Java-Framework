@@ -13,10 +13,18 @@ If you want to use this as a clean starter project:
 
 
 ```bash
-read -p "Enter the branch you want to clone: " branch
-git clone --branch "$branch" --single-branch https://github.com/youruser/JFrameTemplate.git MyApp
-cd MyApp
-rm -rf .git               # to: remove Git history
+#!/bin/bash
+
+read -p "Enter GitHub username: " user
+read -p "Enter branch to clone (e.g., Game-Focus): " branch
+read -p "Enter target folder name: " folder
+
+git clone --branch "$branch" --single-branch "https://github.com/$user/JFrameTemplate.git" "$folder"
+cd "$folder" || exit
+rm -rf .git   # Remove Git history for a clean start
+
+echo "✅ Project '$folder' cloned from '$user' on branch '$branch'"
+
 ```
 
 ---

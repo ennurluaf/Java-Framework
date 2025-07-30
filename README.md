@@ -4,12 +4,15 @@
 
 If you want to use this as a clean starter project:
 
-| Branch Name         | Description                                  |
+```markdown
+| Branch Name | Description |
 | ------------------- | -------------------------------------------- |
-| `main`              | 📄 Only README and instructions              |
-| `JPanel-Focus`      | 🧱 Base app with a custom JPanel template    |
-| `Game-Focus`        | 🎮 Game loop, FPS counter, Runnable/Thread   |
-| `Component-Focus`   | 🧰 Swing components (buttons, sliders, etc.) |
+| `main` | 📄 Only README and instructions |
+| `JPanel-Focus` | 🧱 Base app with a custom JPanel template |
+| `Game-Focus` | 🎮 Game loop, FPS counter, Runnable/Thread |
+| `Component-Focus` | 🧰 Swing components (buttons, sliders, etc.) |
+
+---
 
 
 
@@ -41,4 +44,17 @@ git commit -m "Initial commit"
 ```
 > 💡 This repo uses multiple branches as independent templates.
 > You do NOT need to create pull requests between them.
+
+
+---
+
+**Summary:**
+
+- Markdown **inline code** is the best you can do for "copyable" text on GitHub
+- Real copy buttons require custom UI/javascript on your website (not supported in README)
+- Add usage instructions to guide users how to copy/paste
+
+If you want, I can help generate a small HTML page with copy buttons for your repo page — just say!
+
+
 

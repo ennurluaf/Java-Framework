@@ -5,9 +5,9 @@
 If you want to use this as a clean starter project:
 
 ```bash
-git clone https://github.com/youruser/JFrameTemplate.git MyApp
+git clone --branch Game-Focus --single-branch https://github.com/youruser/JFrameTemplate.git MyApp
 cd MyApp
-rm -rf .git
+rm -rf .git               # to: remove Git history
 ```
 
 ---

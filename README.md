@@ -21,4 +21,6 @@ git init
 git add .
 git commit -m "Initial commit"
 ```
+> 💡 This repo uses multiple branches as independent templates.
+> You do NOT need to create pull requests between them.
 

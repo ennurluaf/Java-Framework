@@ -5,13 +5,21 @@
 If you want to use this as a clean starter project:
 
 ---
-| Branch Name         | Description                                  |
-| ------------------- | -------------------------------------------- |
-| `main`              | 📄 Only README and instructions              |
-| `JPanel-Focus`      | 🧱 Base app with a custom JPanel template    |
-| `Game-Focus`        | 🎮 Game loop, FPS counter, Runnable/Thread   |
-| `Component-Focus`   | 🧰 Swing components (buttons, sliders, etc.) |
+> 🧱 Base app with a custom JPanel template
+```
+JPanel-Focus
+```
 ---
+> 🎮 Game loop, FPS counter, Runnable/Thread
+``` 
+Game-Focus
+```
+---
+> 🧰 Swing components (buttons, sliders, etc.)
+``` 
+Component-Focus
+```
+
 ```bash
 #!/bin/bash
 
@@ -43,14 +51,6 @@ git commit -m "Initial commit"
 
 
 ---
-
-**Summary:**
-
-- Markdown **inline code** is the best you can do for "copyable" text on GitHub
-- Real copy buttons require custom UI/javascript on your website (not supported in README)
-- Add usage instructions to guide users how to copy/paste
-
-If you want, I can help generate a small HTML page with copy buttons for your repo page — just say!
 
 
 

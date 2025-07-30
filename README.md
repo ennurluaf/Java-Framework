@@ -1,6 +1,6 @@
 # Java-Framework
 
-## 🚀 Get Started Without Git History
+## 🚀 JPanel Starterpack
 
 If you want to use this as a clean starter project:
 

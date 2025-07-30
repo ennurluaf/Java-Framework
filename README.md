@@ -4,12 +4,12 @@
 
 If you want to use this as a clean starter project:
 
-| Branch Name         | Description                                  |
-| ------------------- | -------------------------------------------- |
-| `main`              | 📄 Only README and instructions              |
-| `JPanel-Focus`      | 🧱 Base app with a custom JPanel template    |
-| `Game-Focus`        | 🎮 Game loop, FPS counter, Runnable/Thread   |
-| `Component-Focus`   | 🧰 Swing components (buttons, sliders, etc.) |
+| Branch Name               | Description                                  |
+| ------------------------- | -------------------------------------------- |
+| `main`                    | 📄 Only README and instructions              |
+| ``` `JPanel-Focus` ```    | 🧱 Base app with a custom JPanel template    |
+| ``` `Game-Focus`   ```    | 🎮 Game loop, FPS counter, Runnable/Thread   |
+| ``` `Component-Focus` ``` | 🧰 Swing components (buttons, sliders, etc.) |
 
 
 ```bash
